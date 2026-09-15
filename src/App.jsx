@@ -30,8 +30,8 @@ const router = createBrowserRouter([
         element: <DetailsPage />,
       },
       {
-        path:'about',
-        element:<AboutPage />
+        path: 'about',
+        element: <AboutPage />
       }
     ]
   },
@@ -43,7 +43,7 @@ const router = createBrowserRouter([
 
 
 
-])
+], { basename: '/Adasah' })
 function App() {
   return (
     <>
