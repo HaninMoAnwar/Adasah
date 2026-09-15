@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  /* Customize the default sans font family */
+  --font-sans: "Tajawal", "sans-serif";
+
+  /* Define your custom ink color palette */
+  --color-ink-950: #0b0a09;
+  --color-ink-900: #141210;
+  --color-ink-800: #1d1a17;
+  --color-ink-700: #2a2621;
+}
+
+body {
+    background-color: #0b0a09;
+}
+
+.bg-grid {
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+    background-size: 64px 64px;
+}
+
+.badge-dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 999px;
+    background: #f97316;
+    display: inline-block;
+}
+
+::selection {
+    background: #f97316;
+    color: #0b0a09;
+}
