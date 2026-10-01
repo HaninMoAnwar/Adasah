@@ -1,16 +1,56 @@
-# React + Vite
+# 📸 Adasah - Modern React Single Page Application (SPA)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance responsive web project constructed leveraging component-driven development workflows and modular reactivity architectures.
 
-Currently, two official plugins are available:
+Repository Link: [Adasah](https://haninmoanwar.github.io/Adasah/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Architectural Architecture & Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Component-Driven Architecture:** Layout broken down entirely into clean, self-contained functional React components ensuring maintainable lifecycles.
+- **State Optimization:** Utilized standard React Hook mechanics (`useState`, `useEffect`) to orchestrate interactive layout properties and dynamic conditions.
+- **Vite Build Setup:** Powered by Vite tooling pipeline, guaranteeing sub-second Hot Module Replacement (HMR) and production-ready static assets compression.
+- **Responsive Layout Design:** Flexible styling boundaries ensuring a unified application viewport experience on smartphones, tablets, and large monitors.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Built With
+
+- **React.js (v18+)**
+- **Vite** (Build Tooling & Fast Refresh)
+- **JavaScript (ES6+)**
+- **CSS3** (Scoped/Component-level structure integration)
+
+---
+
+## ⚙️ Getting Started
+
+Follow these steps to run the application locally on your computer:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/HaninMoAnwar/Adasah
+   ```
+2. **Navigate into the workspace:**
+   ```bash
+   cd Adasah
+   ```
+3. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+4. **Boot up the developer server:**
+   ```bash
+   npm run dev
+   ```
+
+---
+
+## 📈 Core Skills Demonstrated
+
+- Managing client-side reactive renders effectively.
+- Configuring scalable modern React scaffolds from scratch using Vite.
+- Understanding unidirectional data flow and hook orchestration.
+
+---
