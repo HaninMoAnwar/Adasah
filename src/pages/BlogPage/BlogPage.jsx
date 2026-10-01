@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import posts from "../../assets/posts.json";
 import Hero from '../../components/Hero/Hero'
 import ArticlesNav from '../../components/ArticlesNav/ArticlesNav'
@@ -19,6 +19,9 @@ export default function BlogPage() {
 
   const [displayStyle, setDisplayStyle] = useState('grid')
 
+  useEffect(() => {
+      window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+    }, [])
 
   function resetFilters() {
     setDisplayedArticles(articles);

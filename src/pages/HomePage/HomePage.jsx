@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Hero from '../../components/Hero/Hero'
 import Categories from '../../components/Categories/Categories'
 import FeaturedArt from '../../components/FeaturedArt/FeaturedArt'
@@ -14,6 +14,9 @@ const pageInfo  = {
     description:' انغمس في أسرار المحترفين ونصائح عملية لتطوير مهاراتك في التصوير.'
 }
 export default function HomePage() {
+    useEffect(() => {
+        window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+      }, [])
     return (
         <>
 

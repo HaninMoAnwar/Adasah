@@ -13,6 +13,9 @@ export default function DetailsPage({ }) {
     const article = articles.find((articleItem) => articleItem.slug === slug);
     const relatedArticles =articles.filter((articleItem) => articleItem.category === article.category).slice(0,3);
 
+    useEffect(() => {
+        window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+      }, [slug])
 
 
     return (

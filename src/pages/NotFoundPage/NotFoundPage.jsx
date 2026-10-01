@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 export default function NotFoundPage() {
+    useEffect(() => {
+        window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+      }, [])
     return (
         <div
             className="min-h-screen bg-grid text-white flex flex-col items-center justify-center p-6 text-center relative overflow-hidden select-none">
